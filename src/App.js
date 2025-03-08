@@ -6,6 +6,7 @@ import SignupPage from './pages/SignupPage';
 import About from './pages/About';
 import Features from './pages/Features';
 import ChooseUs from './pages/ChooseUs';
+import Mock_interview from './pages/Mock_interview';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route path = '/about' element={<About/>}/>
         <Route path = '/features' element={<Features/>}/>
         <Route path = '/chooseus' element={<ChooseUs/>}/>
+        <Route path = '/mockinterview' element={<Mock_interview/>}/>
       </Routes>
     </div>
   );
