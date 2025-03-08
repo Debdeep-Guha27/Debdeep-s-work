@@ -4,8 +4,10 @@ import "../Css/Features.css";
 import mock_interview from "../assets/mock-interview.jpg";
 import sample_questions from "../assets/sample-questions.jpg";
 import ai_support from "../assets/ai-support.png";
+import { useNavigate } from "react-router-dom";
 //import { FiArrowUp } from "react-icons/fi";
 const Features = () => {
+  const navigate=useNavigate();
   return (
     <>
       <section className="features-section">
@@ -15,7 +17,7 @@ const Features = () => {
             <img src={mock_interview} alt="Mock Interview" />
             <h3>Mock Interview</h3>
             <p>Practice with AI-driven mock interviews tailored to your job role.</p>
-            <button className="know-more-button">Know More
+            <button className="know-more-button" onClick={()=>navigate('/mockinterview')}>Know More
         
             </button>
           </div>
