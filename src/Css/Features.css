@@ -1,0 +1,121 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.features-section {
+  text-align: center;
+  padding: 50px 10px;
+  background-image:url('../assets/background.png');
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 63px;
+  margin: 0px;
+}
+
+/* Main Heading */
+.heading {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 55px;
+}
+
+/* ✅ Ensure all feature cards are side by side */
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  max-width: 1200px;
+  margin:10px;
+}
+
+/* Feature card styling */
+.feature-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers image & button */
+  justify-content: space-between; /* Spreads content evenly */
+}
+
+/* ✅ Centering the image */
+.feature-card img {
+  width: 250px;
+  height: 198px;
+  display: block;
+  margin: 0 auto 15px auto; /* Centers horizontally */
+}
+
+/* Card title */
+.feature-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Card description */
+.feature-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.know-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  font-family: "Audiowide", sans-serif; /* A futuristic font similar to the image */
+}
+
+.know-more-button:hover {
+  background: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+.know-more-button::after {
+  content: "↗";
+  font-size: 1.2rem;
+  margin-left: 10px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.know-more-button:hover::after {
+  background: black;
+  color: white;
+}

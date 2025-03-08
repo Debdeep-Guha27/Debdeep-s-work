@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.chooseus {
+    width: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    background-image: url("../assets/background.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  .card h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px
+  }
+
+  .card p{
+    font-size: 1rem;
+    color: #424040;
+    margin-bottom: 15px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Exactly 2 columns */
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px; /* Optional: limits width for better layout */
+    margin: auto;
+}
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:3px solid black;
+  }
+  .card-image {
+    width: 100px; /* Adjust size as needed */
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+  
+  .faq {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.faq:hover {
+    background: white;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.faq span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.faq-answer {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #666;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.faqs {
+    width: 60%;
+}
+.faq-heading {
+    font-size: 2rem;
+    margin: 82px 0 0px; /* Increased space between title and FAQ section */
+    text-align: center;
+}
+.ask-section {
+    width: 35%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ask-section p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ask-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: whitesmoke;
+}
+.ask-image {
+    width: 295px; /* Adjust size */
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
