@@ -1,0 +1,87 @@
+/* Chatbox.css */
+.chatbox-container {
+  position: fixed;
+  right: 20px;
+  top: 50px;
+  width: 800px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(155, 152, 152);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  min-height: 550px;
+  height: auto;
+  border: 1px solid black;
+  margin-top: -10px;
+}
+
+.chatbox-header {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+
+.new-btn {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 500px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbox-content {
+  margin: 10px 0;
+  font-size: 14px;
+  overflow-y: auto;
+  flex-grow: -1;
+}
+
+.chatbox-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chatbox-content li {
+  padding: 5px 0;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.chatbox-footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  width: 100%;
+  margin: auto;
+  border-radius: 8px;
+  height: 80px;
+}
+
+.default-btn, .interview-btn {
+  margin-top: 74px;
+  padding: 6px 10px;
+  border-radius: 600px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+  font-size: medium;
+}
+
+.default-btn {
+  background: black;
+  color: white;
+}
+
+.interview-btn {
+  background: #90ee90;
+}

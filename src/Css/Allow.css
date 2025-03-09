@@ -1,0 +1,87 @@
+/* Allow.css */
+.allow-container {
+    font-family: "Audiowide", sans-serif;
+    text-align: unset;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    padding-left: 24px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .instructions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: white;
+    padding: 20px;
+    padding-top:70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+    margin-left: 20px;
+  }
+  
+  .instruction {
+    text-align: center;
+    text-size-adjust:31px;
+    width: 32%;
+    height:200px;
+  }
+  .instruction p{
+        padding-top: 26px;
+        padding-right: 22px;
+        padding-left: auto;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container img {
+    width: 90px;
+    height: 90px;
+}
+
+  
+  .session-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+  }
+  
+  .session-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .session-text {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    
+  }
+  
+  .start-btn {
+    background: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-btn:hover {
+    background: #333;
+  }

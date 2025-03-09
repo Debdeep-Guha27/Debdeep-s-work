@@ -1,0 +1,20 @@
+.main-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .chatbox-container {
+    position: fixed;
+    right: 20px;
+    top: 29px;
+    width: 713px;
+    z-index: 1000;
+    height: fit-content;
+  }
+  
+  .form-container {
+    width: 50%;
+    margin-right: 732px; /* To ensure form doesn't overlap with the chatbox */
+  }
