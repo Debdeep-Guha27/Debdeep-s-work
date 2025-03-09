@@ -32,6 +32,7 @@ const Mock_interview = ({ onClose }) => {
           value={jobRole}
           className="form-input"
           placeholder="Enter a Job-Role"
+          onChange={(e) => setJobRole(e.target.value)}
         />
 
         {/* Job Description */}
@@ -58,7 +59,7 @@ const Mock_interview = ({ onClose }) => {
         />
 
         {/* Generate Button */}
-        <button className="generate-btn">
+        <button className="generate-btn" onClick={()=>navigate('/difficulty')}>
           Generate Questions <span className="arrow"></span>
         </button>
       </div>
