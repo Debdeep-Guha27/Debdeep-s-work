@@ -19,7 +19,7 @@ function App() {
       <Routes> 
         <Route path = '/' element={<LoginPage/>}/>
         <Route path="/signup" element={<SignupPage />} />
-        <Route path = '/pussy' element={<FigmaDesign/>}/>
+        <Route path = '/home' element={<FigmaDesign/>}/>
         <Route path = '/about' element={<About/>}/>
         <Route path = '/features' element={<Features/>}/>
         <Route path = '/chooseus' element={<ChooseUs/>}/>
