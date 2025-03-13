@@ -69,7 +69,7 @@ const Login = () => {
           </div>
 
           {/* Login Button */}
-          <button onClick={() => navigate('/pussy')} className="w-full mt-6 bg-black text-white py-2 rounded-lg hover:bg-gray-800">
+          <button onClick={() => navigate('/home')} className="w-full mt-6 bg-black text-white py-2 rounded-lg hover:bg-gray-800">
             CONTINUE
           </button>
 
