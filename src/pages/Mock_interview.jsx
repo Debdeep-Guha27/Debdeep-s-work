@@ -12,7 +12,7 @@ const Mock_interview = ({ onClose }) => {
     <div className="overlay">
       <div className="job-form">
         {/* Close Button */}
-        <button className="close-btn" onClick={()=>navigate('/features')}>
+        <button className="close-btn" onClick={()=>navigate('/home')}>
           &times;
         </button>
 
